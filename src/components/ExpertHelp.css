@@ -1,0 +1,57 @@
+.SidebarOption{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 18px;
+    margin-right: 18px;
+    color:#9ca3af;
+    }
+.SidebarOption:hover{
+    background-color: #ffffff14;
+}
+.SidebarOption>h3{
+    margin-left: 15px;
+    color: #d1d5db;
+}
+.ExpertBottom{
+    display: inline-block;
+  position: relative;
+    
+
+    align-items: center;
+    display: flex;
+    color: gray;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 2px;
+    margin: 8px;
+    width: fit-content;
+    height: 30px;
+}
+.ExpertBottom:hover{
+    background-color: whitesmoke;
+    color:peru;
+}
+
+#inputExpertHelp{
+    
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      
+
+}
+/* input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  } */

@@ -1,0 +1,66 @@
+.Navbar{
+    position: fixed;
+    z-index: 999;
+    background-color:white;
+    margin:5px;
+    margin-left: 270px;
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    margin-top: -10px;
+    
+    
+    width: 80%;
+    justify-content: space-between;
+
+
+    
+}
+.sm{
+    display: none;
+
+}
+.NavbarLeft{
+    align-items: center;
+    width:55%;
+    display: flex;
+    /* background-color: whitesmoke; */
+    margin: 2px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.NavbarRight{
+    align-items: center;
+    display: flex;
+    
+    /* flex-direction: row-reverse; */
+}
+
+@media (max-width:950px) {
+    .Navbar{
+        
+    margin-left: 15%;
+    
+
+    }
+    .NavbarRight>Button{
+        max-height: 30px;
+        size:10px !important;
+        margin:5px !important;
+    }
+    .big{
+        display: none;
+    }
+    .sm{
+        display: inline;
+    }
+    
+}
+@media (max-width:1450px) {
+    .NavbarRight>Button{
+        max-height: 30px;
+        size:10px !important;
+        margin:5px !important;
+    }
+    
+}

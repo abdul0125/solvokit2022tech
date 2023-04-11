@@ -1,0 +1,36 @@
+.SidebarOption{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 35px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 18px;
+    margin-right: 18px;
+    color:#9ca3af;
+    }
+.SidebarOption:hover{
+    background-color: #ffffff14;
+}
+
+.SidebarOption>h3{
+    margin-left: 15px;
+    color: #d1d5db;
+}
+@media all and (max-width:950px) {
+    .SidebarOption>h3{
+        display: none;
+    }
+    .SidebarOption{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 0px !important;
+        justify-content: center !important;
+        align-items: center;
+
+        
+    }
+    
+
+    
+}

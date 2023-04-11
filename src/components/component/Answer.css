@@ -1,0 +1,34 @@
+.Answer{
+    
+    margin: 5px;
+    
+
+}
+
+
+
+.AnswerBottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.answerOptions{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.answerOptions:hover{
+    /* background-color: rgba(245, 245, 245, 0.806); */
+    background-color: whitesmoke;
+    
+}
+
+.answerOptions_title{
+    text-align: center;
+    font-weight: 600;
+    color: gray;
+
+}

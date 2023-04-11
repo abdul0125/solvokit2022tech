@@ -1,0 +1,56 @@
+.QuestionFeed{
+
+    margin-left: 15px;
+    /* margin-top: 25px; */
+    /* width: 65%; */
+    background-color: white;
+}
+
+
+.QFHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+
+    
+}
+.QFHead>MoreVertIcon{
+    align-items: flex-end;
+
+}
+
+.NameAndCollege{
+    margin-left: 0px;
+}
+
+.QFTail{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.inputOptions{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
+.inputOptions:hover{
+    background-color: whitesmoke;
+    
+}
+
+.inputOptions_title{
+    text-align: center;
+    font-weight: 600;
+    color: gray;
+
+}
+
+.QFbody{
+    margin: 25px;
+    margin-left: 35px;
+
+}

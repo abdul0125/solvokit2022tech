@@ -1,0 +1,12 @@
+.Communities{
+    /* background-color: aqua; */
+    text-align:start;
+    justify-content: flex-start;
+    margin: 45px;
+}
+/* .Communities>p{
+    
+} */
+.cards{
+    display: block;
+}
